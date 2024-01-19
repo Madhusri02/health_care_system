@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.health_care.controller12_ad_about">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="608.0" layoutX="-5.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dashboard_bg(1).JPG" />
+         </image></ImageView>
+      <Label layoutX="224.0" layoutY="35.0" text="ABOUT">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="back4" layoutX="27.0" layoutY="23.0" mnemonicParsing="false" onAction="#topatient" style="-fx-background-color: grey;" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="115.0" layoutY="86.0" prefHeight="244.0" prefWidth="423.0" text="Primary Health Center Management and Monitoring System's &#10;&#10;About Our System:&#10;Welcome to our Primary Health Center Management and Monitoring &#10;System — a comprehensive solution designed to streamline healthcare &#10;processes, improve patient care, and empower medical professionals.&#10;&#10;For Patients:&#10;Navigate your health journey effortlessly. View your previous appointments,&#10;track your medical history, and seamlessly book new appointments.&#10;Our patient-centric approach puts you in control of your healthcare &#10;experience, ensuring convenience and personalized care.&#10;&#10;For Doctors:&#10;Experience efficiency in managing your schedule and patient interactions.&#10;Mark your attendance with ease, view upcoming appointments, and access&#10;patient records securely. Our system empowers you to focus on delivering&#10;exceptional care while minimizing administrative burdens.&#10;&#10;For Admin:&#10;Ensuring the smooth functioning of healthcare facilities is vital. Admins can&#10;address equipment issues promptly, enhancing the reliability of medical&#10;services. Our system facilitates quick reporting and resolution of &#10;equipment-related challenges, contributing to a well-maintained and &#10;efficient healthcare environment.&#10;&#10;Key Features:&#10;- Patient-Centric Approach: &#10;Tailored for patients, doctors, and administrators, our system ensures a &#10;user-friendly experience.&#10;- Efficient Appointment Management:&#10;Simplify the appointment process for patients and doctors, ensuring &#10;optimal time utilization.&#10;- Attendance Tracking:&#10;For doctors, marking attendance is a breeze, allowing for seamless &#10;workflow management.&#10;- Equipment Issue Reporting:&#10; Admins can report and address medical equipment issues promptly,&#10; contributing to a well-maintained facility.&#10;-User-Friendly Interface:&#10; Our intuitive design ensures easy navigation, making it accessible for users&#10; with varying levels of technical expertise.&#10;&#10;Empower. Enhance. Excel.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

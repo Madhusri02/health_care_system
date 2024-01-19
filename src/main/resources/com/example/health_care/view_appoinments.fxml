@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.health_care.controller6_viewapp">
+    <children>
+        <ImageView fitHeight="444.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dashboard_bg(1).JPG" />
+         </image></ImageView>
+        <Label layoutX="184.0" layoutY="26.0" text="VIEW APPOINTMENTS">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="back9" layoutX="23.0" layoutY="29.0" mnemonicParsing="false" onAction="#todoc" style="-fx-background-color: grey;" text="BACK">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+        <TableView fx:id="show" layoutX="66.0" layoutY="91.0" prefHeight="192.0" prefWidth="495.0">
+            <columns>
+                <TableColumn fx:id="col_patient_id" prefWidth="127.0" text="PATIENT ID" />
+                <TableColumn fx:id="col_date" prefWidth="75.0" text="DATE" />
+                <TableColumn fx:id="col_description" prefWidth="219.0" text="PROBLEM DESCRIPTION" />
+                <TableColumn fx:id="col_time" prefWidth="75.0" text="TIME" />
+            </columns>
+        </TableView>
+      <Button fx:id="reload_btn" layoutX="257.0" layoutY="301.0" mnemonicParsing="false" onAction="#on_reload" style="-fx-background-color: grey; -fx-border-color: black;" text="Reload" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.health_care.controller2_doctordash">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg_new.JPG" />
+         </image></ImageView>
+        <Label layoutX="165.0" layoutY="27.0" prefHeight="35.0" prefWidth="270.0" text="DOCTOR DASHBOARD">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="back2" layoutX="23.0" layoutY="32.0" mnemonicParsing="false" onAction="#tologin" style="-fx-background-color: grey;" text="BACK">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="attendence" layoutX="190.0" layoutY="102.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="ATTENDANCE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+         <effect>
+            <Glow level="0.21" />
+         </effect>
+        </Button>
+        <Button fx:id="view_your_appoint" layoutX="190.0" layoutY="155.0" mnemonicParsing="false" onAction="#view_appoint" style="-fx-background-color: transparent; -fx-border-color: black;" text="VIEW APPOINTMENTS">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+         <effect>
+            <Glow level="0.21" />
+         </effect>
+        </Button>
+        <Button fx:id="about2" layoutX="190.0" layoutY="210.0" mnemonicParsing="false" onAction="#toabout" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="ABOUT">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+         <effect>
+            <Glow level="0.21" />
+         </effect>
+        </Button>
+        <Button fx:id="logout2" layoutX="190.0" layoutY="269.0" mnemonicParsing="false" onAction="#totitle" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="LOGOUT">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+         <effect>
+            <Glow level="0.21" />
+         </effect>
+        </Button>
+    </children>
+</AnchorPane>
